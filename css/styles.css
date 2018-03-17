@@ -48,7 +48,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
-  width: 100vw;
+  /* width: 100vw; */
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -181,7 +181,7 @@ nav h1 a {
 }
 #restaurants-list li a {
   background-color: orange;
-  border-bottom: 3px solid #eee;
+  /* border-bottom: 3px solid #eee; */
   color: #fff;
   display: inline-block;
   font-size: 10pt;
@@ -356,4 +356,12 @@ nav h1 a {
   padding: 30px 0;
   display: block;
   position: static;
+}
+
+.view-details-button {
+  padding: 0;
+}
+
+:focus {
+  outline: 2px solid salmon;
 }
