@@ -18,13 +18,13 @@ self.addEventListener('install', event => {
   );
 });
 
-self.addEventListener('activate', function(event) {
+self.addEventListener('activate', function (event) {
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.filter(cacheName => {
           return cacheName.startsWith('rest-review-static-') &&
-             cacheName != staticCacheName;
+            cacheName != staticCacheName;
         }).map(cacheName => {
           return caches.delete(cacheName);
         })
