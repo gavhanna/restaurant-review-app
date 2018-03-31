@@ -1,0 +1,24 @@
+{
+  "name": "restreview",
+  "version": "1.0.0",
+  "description": "Restaurant Review for Udacity",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavhanna/restaurant-review-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavhanna/restaurant-review-app/issues"
+  },
+  "homepage": "https://github.com/gavhanna/restaurant-review-app#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^3.2.1"
+  }
+}
