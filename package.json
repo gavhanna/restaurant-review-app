@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gavhanna/restaurant-review-app#readme",
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^3.2.1"
